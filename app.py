@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load model
-model = joblib.load("models/house_price_model.pkl")
+model = joblib.load("house_price_model.pkl")
 
 # Load dataset (for dashboard)
 df = pd.read_csv("data/kc_house_data.csv")
